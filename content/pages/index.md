@@ -57,6 +57,8 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+  - body: I'm an alert! Be careful!
+    type: AlertSection
   - type: FeaturedPostsSection
     elementId: ''
     variant: variant-a
@@ -167,6 +169,4 @@ sections:
         margin:
           - mt-0
           - mb-12
-  - body: I'm an alert! Be careful!
-    type: AlertSection
 ---
