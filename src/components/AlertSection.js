@@ -1,10 +1,5 @@
 // src/components/AlertSection.js
 
-const AlertSection = ({ body }) => {
-  return <p>{body}</p>
-}
-
-
 
 const AlertSection = ({ annotationPrefix, body }) => {
   return (
@@ -14,3 +9,4 @@ const AlertSection = ({ annotationPrefix, body }) => {
   )
 }
 
+export default AlertSection
