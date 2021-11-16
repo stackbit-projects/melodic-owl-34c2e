@@ -4,7 +4,7 @@ const AlertSection = ({ body }) => {
   return <p>{body}</p>
 }
 
-export default AlertSection
+
 
 const AlertSection = ({ annotationPrefix, body }) => {
   return (
