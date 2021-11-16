@@ -1,10 +1,15 @@
 // src/components/AlertSection.js
 
+// src/components/AlertSection.js
 
 const AlertSection = ({ annotationPrefix, body }) => {
   return (
-    <div data-sb-field-path={annotationPrefix}>
-      <p data-sb-field-path=".body">{body}</p>
+    <div data-sb-field-path={annotationPrefix} className="py-6 bg-primary">
+      <div className="container mx-auto">
+        <p data-sb-field-path=".body" className="text-center text-xl text-white">
+          {body}
+        </p>
+      </div>
     </div>
   )
 }
