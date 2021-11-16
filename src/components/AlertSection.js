@@ -14,4 +14,3 @@ const AlertSection = ({ annotationPrefix, body }) => {
   )
 }
 
-export default AlertSection
