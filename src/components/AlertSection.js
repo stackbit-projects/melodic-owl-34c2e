@@ -5,3 +5,4 @@ const AlertSection = ({ body }) => {
 }
 
 export default AlertSection
+
