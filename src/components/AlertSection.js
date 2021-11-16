@@ -1,7 +1,5 @@
 // src/components/AlertSection.js
 
-// src/components/AlertSection.js
-
 const AlertSection = ({ annotationPrefix, body }) => {
   return (
     <div data-sb-field-path={annotationPrefix} className="py-6 bg-primary">
